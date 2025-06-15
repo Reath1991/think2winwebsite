@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Think2Win - Test Your Knowledge</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <div class="logo-icon">T2W</div>
+        <div class="logo-text">
+          <span class="logo-title">Think2Win</span>
+          <span class="logo-tagline">Test Your Knowledge</span>
+        </div>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#quiz-categories">Categories</a></li>
+          <li><a href="#leaderboard">Leaderboard</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+        <div class="auth-buttons">
+          <button class="btn-login"><i class="fas fa-sign-in-alt"></i> Login</button>
+          <button class="btn-signup"><i class="fas fa-user-plus"></i> Sign Up</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Challenge Your Knowledge</h1>
+      <p>Join thousands of players in exciting quiz competitions</p>
+      <div class="hero-stats">
+        <div class="stat">
+          <i class="fas fa-users"></i>
+          <span class="stat-number">50k+</span>
+          <span class="stat-label">Players</span>
+        </div>
+        <div class="stat">
+          <i class="fas fa-trophy"></i>
+          <span class="stat-number">₹1L+</span>
+          <span class="stat-label">Prize Pool</span>
+        </div>
+        <div class="stat">
+          <i class="fas fa-question-circle"></i>
+          <span class="stat-number">200+</span>
+          <span class="stat-label">Questions</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="app-download">
+    <div class="app-content">
+      <div class="app-text">
+        <h2>Download Our Mobile App</h2>
+        <p>Play quizzes on the go! Download our mobile app for the best quiz experience.</p>
+        <div class="app-features">
+          <div class="feature">
+            <i class="fas fa-bolt"></i>
+            <span>Instant Results</span>
+          </div>
+          <div class="feature">
+            <i class="fas fa-bell"></i>
+            <span>Daily Notifications</span>
+          </div>
+          <div class="feature">
+            <i class="fas fa-trophy"></i>
+            <span>Live Leaderboard</span>
+          </div>
+        </div>
+        <div class="app-buttons">
+          <a href="https://play.google.com/store/apps/details?id=com.think2win.quiz" class="play-store-btn" target="_blank">
+            <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" style="height: 80px;">
+          </a>
+          <div class="app-rating">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>4.5/5 Rating</span>
+          </div>
+        </div>
+        <div class="mobile-download-cta">
+          <h3>Download Now and Start Winning!</h3>
+          <p>Join thousands of players and win exciting prizes</p>
+          <a href="https://play.google.com/store/apps/details?id=com.think2win.quiz" class="download-btn" target="_blank">
+            <i class="fab fa-android"></i>
+            Download for Android
+          </a>
+        </div>
+      </div>
+      <div class="app-image">
+        <!-- <img src="images/app-mockup.png" alt="Think2Win Mobile App"> -->
+      </div>
+    </div>
+  </section>
+
+  <section id="winners" class="section">
+    <h2>Our Winners</h2>
+    <div class="winners-grid">
+      <div class="winner-card">
+        <div class="winner-image-container">
+          <img src="images/winner1.jpg" alt="Winner" class="winner-image">
+          <div class="winner-overlay">
+            <div class="winner-trophy">
+              <i class="fas fa-trophy"></i>
+            </div>
+          </div>
+        </div>
+        <div class="winner-info">
+          <h3>Naman Upadhyay</h3>
+          <p class="prize">Won ₹10,000</p>
+          <p class="category">Science Quiz Champion</p>
+          <p class="date">March 2024</p>
+        </div>
+      </div>
+      <div class="winner-card">
+        <div class="winner-image-container">
+          <img src="images/winners2.jpg" alt="Winner" class="winner-image">
+          <div class="winner-overlay">
+            <div class="winner-trophy">
+              <i class="fas fa-trophy"></i>
+            </div>
+          </div>
+        </div>
+        <div class="winner-info">
+          <h3>Nisha</h3>
+          <p class="prize">Won ₹8,500</p>
+          <p class="category">History Quiz Expert</p>
+          <p class="date">February 2024</p>
+        </div>
+      </div>
+      <div class="winner-card">
+        <div class="winner-image-container">
+          <img src="images/winners3.jpg" alt="Winner" class="winner-image">
+          <div class="winner-overlay">
+            <div class="winner-trophy">
+              <i class="fas fa-trophy"></i>
+            </div>
+          </div>
+        </div>
+        <div class="winner-info">
+          <h3>Deepesh chandra</h3>
+          <p class="prize">Won ₹12,000</p>
+          <p class="category">Sports Quiz Master</p>
+          <p class="date">January 2024</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="section">
+    <h2>What Our Players Say</h2>
+    <div class="testimonials-container">
+      <div class="testimonial-card">
+        <div class="testimonial-content">
+          <div class="quote-icon">
+            <i class="fas fa-quote-left"></i>
+          </div>
+          <p class="testimonial-text">
+            "Think2Win has completely changed how I spend my free time. The quizzes are challenging and fun, and I've actually learned so much while winning prizes!"
+          </p>
+          <div class="player-info">
+            <div class="player-details">
+              <h4>Rahul Verma</h4>
+              <p class="player-title">Science Quiz Champion</p>
+              <div class="player-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="testimonial-content">
+          <div class="quote-icon">
+            <i class="fas fa-quote-left"></i>
+          </div>
+          <p class="testimonial-text">
+            "The daily challenges keep me engaged, and the instant cash rewards are amazing. I've won multiple times and the withdrawal process is super smooth!"
+          </p>
+          <div class="player-info">
+            <div class="player-details">
+              <h4>Priya Singh</h4>
+              <p class="player-title">History Quiz Expert</p>
+              <div class="player-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="testimonial-content">
+          <div class="quote-icon">
+            <i class="fas fa-quote-left"></i>
+          </div>
+          <p class="testimonial-text">
+            "The app is so user-friendly and the questions are well-researched. I love competing with players from all over India. Best quiz app I've ever used!"
+          </p>
+          <div class="player-info">
+            <div class="player-details">
+              <h4>Amit Kumar</h4>
+              <p class="player-title">Sports Quiz Master</p>
+              <div class="player-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="founders" class="section">
+    <h2>Meet Our Team</h2>
+    <div class="founders-grid">
+      <div class="founder-card">
+        <img src="images/founder.jpg" alt="Founder" class="founder-image">
+        <div class="founder-info">
+          <h3>Founder</h3>
+          <p class="name">Bhagawati Devi</p>
+          <p class="role">Vision & Strategy</p>
+        </div>
+      </div>
+      <div class="founder-card">
+        <img src="images/co-founder.jpg" alt="Co-Founder" class="founder-image">
+        <div class="founder-info">
+          <h3>Co-Founder</h3>
+          <p class="name">Shikha Mishra</p>
+          <p class="role">Technology & Innovation</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="quiz" class="section">
+    <h2>Try Our Quiz</h2>
+    <div class="quiz-section">
+      <div class="quiz-question">
+        <h3>What is the capital of France?</h3>
+        <div class="quiz-options">
+          <div class="quiz-option">London</div>
+          <div class="quiz-option">Berlin</div>
+          <div class="quiz-option">Paris</div>
+          <div class="quiz-option">Madrid</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="quiz-categories" class="section">
+    <h2>Quiz Categories</h2>
+    <div class="category-grid">
+      <div class="category-card">
+        <div class="category-image-container">
+          <div class="category-icon science-icon">
+            <i class="fas fa-flask"></i>
+          </div>
+          <div class="category-overlay"></div>
+        </div>
+        <div class="category-content">
+          <h3>Science Quiz</h3>
+          <p>Test your knowledge of physics, chemistry, and biology</p>
+          <div class="category-stats">
+            <span class="stat"><i class="fas fa-question-circle"></i> 50+ Questions</span>
+            <span class="stat"><i class="fas fa-users"></i> 10k+ Players</span>
+            <span class="stat"><i class="fas fa-trophy"></i> ₹5k Prize Pool</span>
+          </div>
+          <button class="btn-small">Start Quiz</button>
+        </div>
+      </div>
+
+      <div class="category-card">
+        <div class="category-image-container">
+          <div class="category-icon history-icon">
+            <i class="fas fa-landmark"></i>
+          </div>
+          <div class="category-overlay"></div>
+        </div>
+        <div class="category-content">
+          <h3>History Quiz</h3>
+          <p>Explore ancient civilizations and modern history</p>
+          <div class="category-stats">
+            <span class="stat"><i class="fas fa-question-circle"></i> 40+ Questions</span>
+            <span class="stat"><i class="fas fa-users"></i> 8k+ Players</span>
+            <span class="stat"><i class="fas fa-trophy"></i> ₹4k Prize Pool</span>
+          </div>
+          <button class="btn-small">Start Quiz</button>
+        </div>
+      </div>
+
+      <div class="category-card">
+        <div class="category-image-container">
+          <div class="category-icon sports-icon">
+            <i class="fas fa-futbol"></i>
+          </div>
+          <div class="category-overlay"></div>
+        </div>
+        <div class="category-content">
+          <h3>Sports Quiz</h3>
+          <p>Challenge yourself with sports trivia and records</p>
+          <div class="category-stats">
+            <span class="stat"><i class="fas fa-question-circle"></i> 30+ Questions</span>
+            <span class="stat"><i class="fas fa-users"></i> 12k+ Players</span>
+            <span class="stat"><i class="fas fa-trophy"></i> ₹6k Prize Pool</span>
+          </div>
+          <button class="btn-small">Start Quiz</button>
+        </div>
+      </div>
+
+      <div class="category-card">
+        <div class="category-image-container">
+          <div class="category-icon entertainment-icon">
+            <i class="fas fa-film"></i>
+          </div>
+          <div class="category-overlay"></div>
+        </div>
+        <div class="category-content">
+          <h3>Entertainment Quiz</h3>
+          <p>Test your knowledge of movies, music, and pop culture</p>
+          <div class="category-stats">
+            <span class="stat"><i class="fas fa-question-circle"></i> 45+ Questions</span>
+            <span class="stat"><i class="fas fa-users"></i> 15k+ Players</span>
+            <span class="stat"><i class="fas fa-trophy"></i> ₹7k Prize Pool</span>
+          </div>
+          <button class="btn-small">Start Quiz</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="section">
+    <h2>Why Choose Think2Win?</h2>
+    <div class="features">
+      <div class="card">
+        <div class="feature-icon">🎯</div>
+        <h3>Weekly Quiz Challenges</h3>
+        <p>New questions every week to test your knowledge and keep you engaged.</p>
+      </div>
+      <div class="card">
+        <div class="feature-icon">💰</div>
+        <h3>Instant Cash Prizes</h3>
+        <p>Win real money instantly by topping the leaderboard or lucky draws.</p>
+      </div>
+      <div class="card">
+        <div class="feature-icon">🔒</div>
+        <h3>Secure & Transparent</h3>
+        <p>We ensure fair play and maintain transparency in our rewards and results.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="how-it-works" class="section">
+    <h2>How It Works</h2>
+    <div class="steps-container">
+      <div class="step">
+        <div class="step-number">1</div>
+        <div class="step-content">
+          <h3>Create Account</h3>
+          <p>Sign up for free and complete your profile</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-number">2</div>
+        <div class="step-content">
+          <h3>Choose Quiz</h3>
+          <p>Select from various categories and difficulty levels</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-number">3</div>
+        <div class="step-content">
+          <h3>Play & Win</h3>
+          <p>Answer questions correctly and win cash prizes</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section about-section">
+    <div class="section-header">
+      <h2>About Think2Win</h2>
+      <p class="section-subtitle">Your Ultimate Quiz Destination</p>
+    </div>
+    
+    <div class="about-content">
+      <div class="about-text">
+        <div class="about-card">
+          <div class="card-icon">
+            <i class="fas fa-brain"></i>
+          </div>
+          <h3>Our Mission</h3>
+          <p>To create an engaging platform where knowledge meets entertainment, making learning fun and rewarding for everyone.</p>
+        </div>
+
+        <div class="about-card">
+          <div class="card-icon">
+            <i class="fas fa-star"></i>
+          </div>
+          <h3>Why Choose Us</h3>
+          <ul class="feature-list">
+            <li><i class="fas fa-check"></i> Daily cash prizes and rewards</li>
+            <li><i class="fas fa-check"></i> Multiple quiz categories</li>
+            <li><i class="fas fa-check"></i> Real-time leaderboards</li>
+            <li><i class="fas fa-check"></i> Instant results and feedback</li>
+          </ul>
+        </div>
+
+        <div class="about-card">
+          <div class="card-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3>Our Growth</h3>
+          <div class="growth-stats">
+            <div class="growth-item">
+              <span class="growth-number">50K+</span>
+              <span class="growth-label">Active Users</span>
+            </div>
+            <div class="growth-item">
+              <span class="growth-number">₹1L+</span>
+              <span class="growth-label">Paid Out</span>
+            </div>
+            <div class="growth-item">
+              <span class="growth-number">200+</span>
+              <span class="growth-label">Daily Quizzes</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-image">
+        <img src="images/about-quiz.png" alt="Quiz Competition">
+        <div class="experience-badge">
+          <span class="years">2+</span>
+          <span class="text">Years of Excellence</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonials">
+      <h3>What Our Players Say</h3>
+      <div class="testimonial-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <i class="fas fa-quote-left"></i>
+            <p>"Think2Win has made learning fun and rewarding. I've won multiple prizes while improving my knowledge!"</p>
+          </div>
+          <div class="testimonial-author">
+            <div class="author-info">
+              <h4>Rahul Sharma</h4>
+              <span>Science Quiz Champion</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <i class="fas fa-quote-left"></i>
+            <p>"The variety of quizzes and instant rewards make this platform unique. Highly recommended!"</p>
+          </div>
+          <div class="testimonial-author">
+            <div class="author-info">
+              <h4>Priya Patel</h4>
+              <span>History Quiz Expert</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <i class="fas fa-quote-left"></i>
+            <p>"Best quiz platform I've found. The questions are challenging and the rewards are great!"</p>
+          </div>
+          <div class="testimonial-author">
+            <div class="author-info">
+              <h4>Amit Kumar</h4>
+              <span>Sports Quiz Winner</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <div class="card">
+      <form action="https://formspree.io/f/your-form-id" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <p class="support-email">Support Email: <a href="mailto:support@think2win.com">support@think2win.com</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Think2Win. All rights reserved.</p>
+    <div class="footer-links">
+      <p><a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a> | <a href="#">Disclaimer</a></p>
+      <p>Registered Office: Think2Win Pvt. Ltd., B-52, Knowledge Park, Noida, UP - 201301, India</p>
+    </div>
+  </footer>
+
+  <!-- Quiz Preview Modal -->
+  <div id="quizModal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <div class="modal-header">
+        <h2>Science Quiz Preview</h2>
+        <div class="quiz-info">
+          <span class="time-limit">⏱️ 30 minutes</span>
+          <span class="total-questions">📝 50 Questions</span>
+          <span class="prize-amount">💰 ₹5,000 Prize Pool</span>
+        </div>
+        <div class="quiz-progress">
+          <div class="progress-bar">
+            <div class="progress" style="width: 20%"></div>
+          </div>
+          <div class="progress-stats">
+            <span class="current-question">Question 1 of 5</span>
+            <span class="timer">29:59</span>
+          </div>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div class="sample-question" data-question="1">
+          <h3>Sample Question 1</h3>
+          <p>What is the chemical symbol for gold?</p>
+          <div class="options">
+            <div class="option" data-correct="false">
+              <span class="option-marker">A</span>
+              <span class="option-text">Ag</span>
+            </div>
+            <div class="option" data-correct="true">
+              <span class="option-marker">B</span>
+              <span class="option-text">Au</span>
+            </div>
+            <div class="option" data-correct="false">
+              <span class="option-marker">C</span>
+              <span class="option-text">Fe</span>
+            </div>
+            <div class="option" data-correct="false">
+              <span class="option-marker">D</span>
+              <span class="option-text">Cu</span>
+            </div>
+          </div>
+          <div class="question-feedback">
+            <div class="feedback-correct">
+              <span class="feedback-icon">✓</span>
+              <p>Correct! Gold's chemical symbol is Au, from the Latin word "aurum".</p>
+            </div>
+            <div class="feedback-incorrect">
+              <span class="feedback-icon">✗</span>
+              <p>Incorrect. The correct answer is Au (Gold).</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="sample-question" data-question="2" style="display: none;">
+          <h3>Sample Question 2</h3>
+          <p>Which planet is known as the Red Planet?</p>
+          <div class="options">
+            <div class="option" data-correct="false">
+              <span class="option-marker">A</span>
+              <span class="option-text">Venus</span>
+            </div>
+            <div class="option" data-correct="true">
+              <span class="option-marker">B</span>
+              <span class="option-text">Mars</span>
+            </div>
+            <div class="option" data-correct="false">
+              <span class="option-marker">C</span>
+              <span class="option-text">Jupiter</span>
+            </div>
+            <div class="option" data-correct="false">
+              <span class="option-marker">D</span>
+              <span class="option-text">Saturn</span>
+            </div>
+          </div>
+          <div class="question-feedback">
+            <div class="feedback-correct">
+              <span class="feedback-icon">✓</span>
+              <p>Correct! Mars is called the Red Planet due to its reddish appearance caused by iron oxide on its surface.</p>
+            </div>
+            <div class="feedback-incorrect">
+              <span class="feedback-icon">✗</span>
+              <p>Incorrect. The correct answer is Mars, known for its reddish appearance.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="sample-question" data-question="3" style="display: none;">
+          <h3>Sample Question 3</h3>
+          <p>What is the largest organ in the human body?</p>
+          <div class="options">
+            <div class="option" data-correct="false">
+              <span class="option-marker">A</span>
+              <span class="option-text">Heart</span>
+            </div>
+            <div class="option" data-correct="false">
+              <span class="option-marker">B</span>
+              <span class="option-text">Brain</span>
+            </div>
+            <div class="option" data-correct="true">
+              <span class="option-marker">C</span>
+              <span class="option-text">Skin</span>
+            </div>
+            <div class="option" data-correct="false">
+              <span class="option-marker">D</span>
+              <span class="option-text">Liver</span>
+            </div>
+          </div>
+          <div class="question-feedback">
+            <div class="feedback-correct">
+              <span class="feedback-icon">✓</span>
+              <p>Correct! The skin is the largest organ, covering an average of 20 square feet in adults.</p>
+            </div>
+            <div class="feedback-incorrect">
+              <span class="feedback-icon">✗</span>
+              <p>Incorrect. The correct answer is Skin, which is the body's largest organ.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="results-summary" style="display: none;">
+          <h3>Preview Results</h3>
+          <div class="results-stats">
+            <div class="stat-item">
+              <span class="stat-value">3/3</span>
+              <span class="stat-label">Questions Answered</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">100%</span>
+              <span class="stat-label">Accuracy</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">6</span>
+              <span class="stat-label">Points Earned</span>
+            </div>
+          </div>
+          <div class="results-message">
+            <p>Great job! You're ready to take on the full quiz.</p>
+            <p>Remember: The actual quiz has 50 questions with a 30-minute time limit.</p>
+          </div>
+        </div>
+
+        <div class="quiz-rules">
+          <h3>Quiz Rules</h3>
+          <ul>
+            <li>Each question carries 2 points</li>
+            <li>No negative marking</li>
+            <li>Time limit: 30 minutes</li>
+            <li>Top 3 winners get cash prizes</li>
+          </ul>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-outline">View Full Rules</button>
+        <button class="btn btn-next">Next Question</button>
+        <button class="btn">Start Quiz Now</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Leaderboard Section -->
+  <section id="leaderboard" class="section">
+    <h2>Top Performers</h2>
+    <div class="leaderboard-container">
+      <div class="leaderboard-tabs">
+        <button class="tab-btn active" data-tab="science">Science</button>
+        <button class="tab-btn" data-tab="history">History</button>
+        <button class="tab-btn" data-tab="sports">Sports</button>
+        <button class="tab-btn" data-tab="entertainment">Entertainment</button>
+      </div>
+      
+      <div class="leaderboard-content">
+        <div class="leaderboard-tab active" id="science-tab">
+          <div class="top-three">
+            <div class="winner second">
+              <div class="rank">2</div>
+              <img src="images/winners2.jpg" alt="Second Place">
+              <h4>Nisha</h4>
+              <p class="score">95 Points</p>
+              <p class="prize">₹2,000</p>
+            </div>
+            <div class="winner first">
+              <div class="rank">1</div>
+              <img src="images/winner1.jpg" alt="First Place">
+              <h4>Naman Upadhyay</h4>
+              <p class="score">98 Points</p>
+              <p class="prize">₹3,000</p>
+            </div>
+            <div class="winner third">
+              <div class="rank">3</div>
+              <img src="images/winners3.jpg" alt="Third Place">
+              <h4>Deepesh chandra</h4>
+              <p class="score">92 Points</p>
+              <p class="prize">₹1,000</p>
+            </div>
+          </div>
+          <div class="other-winners">
+            <div class="winner-row">
+              <span class="rank">4</span>
+              <img src="images/winner4.jpg" alt="Fourth Place">
+              <span class="name">Priyanka </span>
+              <span class="score">90 Points</span>
+            </div>
+            <div class="winner-row">
+              <span class="rank">5</span>
+              <img src="images/winner5.jpeg" alt="Fifth Place">
+              <span class="name">Amit Kumar</span>
+              <span class="score">88 Points</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    // Modal functionality
+    const modal = document.getElementById('quizModal');
+    const closeBtn = document.querySelector('.close-modal');
+    const quizButtons = document.querySelectorAll('.btn-small');
+    const options = document.querySelectorAll('.option');
+    const nextBtn = document.querySelector('.btn-next');
+    const startBtn = document.querySelector('.modal-footer .btn:last-child');
+    let currentQuestion = 1;
+    let timerInterval;
+    let timeLeft = 1800; // 30 minutes in seconds
+    let correctAnswers = 0;
+
+    // Timer function
+    function startTimer() {
+      timerInterval = setInterval(() => {
+        timeLeft--;
+        const minutes = Math.floor(timeLeft / 60);
+        const seconds = timeLeft % 60;
+        document.querySelector('.timer').textContent = 
+          `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+        
+        if (timeLeft <= 0) {
+          clearInterval(timerInterval);
+          // Handle quiz timeout
+        }
+      }, 1000);
+    }
+
+    // Show feedback for selected option
+    options.forEach(option => {
+      option.addEventListener('click', () => {
+        const isCorrect = option.dataset.correct === 'true';
+        const currentOptions = option.closest('.sample-question').querySelectorAll('.option');
+        
+        currentOptions.forEach(opt => opt.classList.remove('selected', 'correct', 'incorrect'));
+        option.classList.add('selected');
+        option.classList.add(isCorrect ? 'correct' : 'incorrect');
+        
+        if (isCorrect) correctAnswers++;
+        
+        // Show feedback
+        const feedback = option.closest('.sample-question').querySelector('.question-feedback');
+        const correctFeedback = feedback.querySelector('.feedback-correct');
+        const incorrectFeedback = feedback.querySelector('.feedback-incorrect');
+        
+        correctFeedback.style.display = isCorrect ? 'flex' : 'none';
+        incorrectFeedback.style.display = isCorrect ? 'none' : 'flex';
+        
+        // Enable next button
+        nextBtn.style.display = 'block';
+      });
+    });
+
+    // Next question handler
+    nextBtn.addEventListener('click', () => {
+      const currentQuestionEl = document.querySelector(`.sample-question[data-question="${currentQuestion}"]`);
+      currentQuestionEl.style.display = 'none';
+      
+      currentQuestion++;
+      if (currentQuestion <= 3) {
+        const nextQuestionEl = document.querySelector(`.sample-question[data-question="${currentQuestion}"]`);
+        nextQuestionEl.style.display = 'block';
+        
+        document.querySelector('.current-question').textContent = `Question ${currentQuestion} of 3`;
+        document.querySelector('.progress').style.width = `${(currentQuestion / 3) * 100}%`;
+        
+        // Reset options and feedback
+        const options = nextQuestionEl.querySelectorAll('.option');
+        options.forEach(opt => opt.classList.remove('selected', 'correct', 'incorrect'));
+        nextQuestionEl.querySelector('.feedback-correct').style.display = 'none';
+        nextQuestionEl.querySelector('.feedback-incorrect').style.display = 'none';
+        nextBtn.style.display = 'none';
+      } else {
+        // Show results summary
+        document.querySelector('.results-summary').style.display = 'block';
+        document.querySelector('.quiz-rules').style.display = 'none';
+        nextBtn.style.display = 'none';
+        startBtn.style.display = 'block';
+        
+        // Update results
+        const accuracy = Math.round((correctAnswers / 3) * 100);
+        document.querySelector('.stat-value:nth-child(1)').textContent = '3/3';
+        document.querySelector('.stat-value:nth-child(2)').textContent = `${accuracy}%`;
+        document.querySelector('.stat-value:nth-child(3)').textContent = `${correctAnswers * 2}`;
+      }
+    });
+
+    quizButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        modal.style.display = 'block';
+        startTimer();
+        // Reset quiz state
+        currentQuestion = 1;
+        correctAnswers = 0;
+        timeLeft = 1800;
+        document.querySelector('.current-question').textContent = 'Question 1 of 3';
+        document.querySelector('.progress').style.width = '33.33%';
+        nextBtn.style.display = 'none';
+        startBtn.style.display = 'none';
+        
+        // Reset all questions
+        document.querySelectorAll('.sample-question').forEach((q, index) => {
+          q.style.display = index === 0 ? 'block' : 'none';
+        });
+        document.querySelector('.results-summary').style.display = 'none';
+        document.querySelector('.quiz-rules').style.display = 'block';
+      });
+    });
+
+    closeBtn.addEventListener('click', () => {
+      modal.style.display = 'none';
+      clearInterval(timerInterval);
+    });
+
+    window.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        modal.style.display = 'none';
+        clearInterval(timerInterval);
+      }
+    });
+
+    // Leaderboard tabs
+    const tabBtns = document.querySelectorAll('.tab-btn');
+    tabBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        tabBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        // Add tab switching logic here
+      });
+    });
+  </script>
+</body>
+</html>
